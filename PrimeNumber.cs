@@ -11,13 +11,13 @@ using System;
           {    
            if(n % i == 0)    
             {    
-             Console.Write("Number is not Prime.");    
+             Console.Write("Number you entered is not Prime.");    
              flag=1;    
              break;    
             }    
           }    
           if (flag==0)    
-           Console.Write("Number is Prime.");       
+           Console.Write("Number you entered is Prime.");       
      }  
    }  
 Output:
